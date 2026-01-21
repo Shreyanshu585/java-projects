@@ -10,13 +10,10 @@ public class doctor {
 
     private static Connection connection;
 
-
-
     public doctor(Connection connection){
         this.connection=connection;
 
     }
-
 
     public static void viewDoctor() {
         String query = "select * from doctor";
@@ -64,5 +61,6 @@ public class doctor {
     }
 
 }
+
 
 
